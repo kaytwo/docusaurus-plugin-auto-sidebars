@@ -1,7 +1,7 @@
 {
-  "name": "docusaurus-plugin-auto-sidebars",
-  "version": "1.0.7",
-  "description": "Auto sidebars plugin for Docusaurus",
+  "name": "docusaurus-plugin-frontmatters",
+  "version": "0.0.1",
+  "description": "frontmatter index for Docusaurus",
   "main": "lib/index.js",
   "scripts": {
     "tsc": "tsc"
@@ -11,14 +11,16 @@
   },
   "license": "MIT",
   "dependencies": {
-    "js-yaml": "^3.13.1",
-    "@docusaurus/types": "^2.0.0-alpha.50"
+    "@docusaurus/types": "^2.0.0-alpha.72",
+    "globby": "^11.0.3",
+    "js-yaml": "^3.13.1"
   },
   "peerDependencies": {},
   "engines": {
     "node": ">=10.9.0"
   },
   "devDependencies": {
+    "@types/globby": "^9.1.0",
     "@types/node": "^13.11.1",
     "typescript": "^3.8.3"
   }
